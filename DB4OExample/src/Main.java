@@ -1,3 +1,5 @@
+//Aluno: Arthur Belo da Silva - 01615335
+
 import com.db4o.Db4oEmbedded;
 import com.db4o.ObjectContainer;
 import com.db4o.ObjectSet;
@@ -18,7 +20,6 @@ class DN40 {
 public class Main {
 
     public static void main(String[] args) {
-        // Apaga o banco de dados se existir
         apagarBancoDeDados();
 
         ObjectContainer db = Db4oEmbedded.openFile("exemplo.db4o");
@@ -81,7 +82,6 @@ public class Main {
         File arquivoBanco = new File("exemplo.db4o");
         if (arquivoBanco.exists()) {
             arquivoBanco.delete();
-            //System.out.println("Banco de dados apagado.");
         }
     }
 }
