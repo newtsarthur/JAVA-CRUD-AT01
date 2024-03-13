@@ -24,17 +24,17 @@ public class Main {
 
         ObjectContainer db = Db4oEmbedded.openFile("exemplo.db4o");
         criarRegistros(db);
-        System.out.println("Registros antes da atualizaÁ„o:");
+        System.out.println("Registros antes da atualiza√ß√£o:");
         listarRegistros(db);
-        atualizarRegistro(db, "Item1", "Articuno", "Um lend·rio pÛkemon de gelo!");
-        atualizarRegistro(db, "Item2", "Zapdos ", "Um lend·rio pÛkemon elÈtrico!");
-        atualizarRegistro(db, "Item3", "Charizard", "Um lend·rio pÛkemon de fogo! ");
-        System.out.println("\nRegistros apÛs a atualizaÁ„o:");
+        atualizarRegistro(db, "Item1", "Articuno", "Um lend√°rio pok√©mon de gelo!");
+        atualizarRegistro(db, "Item2", "Zapdos ", "Um lend√°rio pok√©mon el√©trico!");
+        atualizarRegistro(db, "Item3", "Moltres", "Um lend√°rio pok√©mon de fogo! ");
+        System.out.println("\nRegistros ap√≥s a atualiza√ß√£o:");
         listarRegistros(db);
         excluirRegistro(db, "Item1");
         excluirRegistro(db, "Item2");
         excluirRegistro(db, "Item3");
-        System.out.println("\nRegistros apÛs a exclus„o:");
+        System.out.println("\nRegistros ap√≥s a exclus√£o:");
         System.out.println("Vazio");
         System.out.println("Vazio");
         System.out.println("Vazio");
@@ -42,9 +42,9 @@ public class Main {
     }
 
     private static void criarRegistros(ObjectContainer db) {
-        db.store(new DN40(1, "Item1", "DescriÁ„o do Item1"));
-        db.store(new DN40(2, "Item2", "DescriÁ„o do Item2"));
-        db.store(new DN40(3, "Item3", "DescriÁ„o do Item3"));
+        db.store(new DN40(1, "Item1", "Descri√ß√£o do Item1"));
+        db.store(new DN40(2, "Item2", "Descri√ß√£o do Item2"));
+        db.store(new DN40(3, "Item3", "Descri√ß√£o do Item3"));
         db.commit();
     }
 
