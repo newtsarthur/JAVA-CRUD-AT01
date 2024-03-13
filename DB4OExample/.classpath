@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/CDC-1.1%Foundation-1.1"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/ant.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/bloat-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-all-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-bench.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-core-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-cs.optional-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-cs-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-db4ounit-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-instrumentation-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-nqopt-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-optional-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-osgi-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-osgi-test-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-taj-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-8.0/lib/db4o-8.0.276.16149-tools-java5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Arthur/Downloads/db4o-7.2.44.10827-osgi.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
